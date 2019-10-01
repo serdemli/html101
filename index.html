@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<!--Contains metadata. -->
+	<title>HTML 101</title>
+	<style type="text/css"></style>
+</head>
+
+<body>
+	<header>
+		<h1>This is HTML101</h1>
+		<p>Sinem is learning some things here.</p>
+
+		<nav>
+			<ul>
+				<li><a href="#form">a cool form</a></li>
+				<li><a href="#table">banana table</a></li>
+				<li><a href="#media">cat pic</a></li>
+
+			</ul>
+		</nav>
+
+	</header>
+
+	<main>
+
+
+		<!--MEDIA with an image a video and a gif-->
+		<section id="media">
+			<h2>cat pic</h2>
+			<figure>
+				<img src="http://giphygifs.s3.amazonaws.com/media/Nrl65xdV70qze/giphy.gif"
+					alt="Gif of a cat pushing things off furniture">
+				<figcaption><em>Sprit animal</em></figcaption>
+			</figure>
+		</section>
+
+
+		<!--LETS MAKE FORMS GREAT AGAIN-->
+		<section id="form">
+			<h2>a cool form</h2>
+			<span>Here's an awesome form. It will make forms great again.or not.</span>
+			<form method="POST" action="https://formspree.io/sinem.erdemli@red-badger.com">
+				<h3>Introduce yourself!</h3>
+				<label for="about-you">Who are you?</label>
+				<input type="text" name="about-you" id="about-you">
+
+				<h3>Let's talk about your awesomeness</h3>
+				<label for="awesomeness">What's your level of awesomeness?</label>
+				<input type="range" name="awesomeness" min="1" max="5" step="0.4" id="awesomeness">
+
+
+				<label for="awesome-type">What kind of awesome are you?</label>
+				<input type="text" name="awesome-type" list="awesome-type" id="awesome-type">
+				<datalist id="awesome-type">
+					<option value="Super">Super</option>
+					<option value="Extra">Extra</option>
+					<option value="Moderate">Moderate</option>
+				</datalist>
+
+
+				<h3>Let's get ready to rumble!</h3>
+				<label for="form-better">Has this form made forms better?</label>
+				<input type="radio" name="form-better" id="form-better" value="yes">
+				<span>yes</span>
+				<input type="radio" name="form-better" id="form-better" value="no">
+				<span>no</span>
+
+
+				<h3>Let's shipit</h3>
+				<label for="feedback">Any thoughts?</label>
+				<textarea id="feedback" name="feedback" rows="5" cols="30"></textarea>
+				<input type="submit" name="shipped-it" value="Ship it">
+
+			</form>
+
+
+
+		</section>
+
+
+		<!--TABLE FUN-->
+		<section id="table">
+			<h2>the banana table</h2>
+			<table>
+				<tr>
+					<th>banana</th>
+					<th>banana</th>
+					<th>banana</th>
+				</tr>
+				<tr>
+					<td>one.banana</td>
+					<td>two.banana</td>
+					<td>three.banana</td>
+				</tr>
+			</table>
+		</section>
+
+
+	</main>
+
+</body>
+
+</html>
