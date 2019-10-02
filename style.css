@@ -1,3 +1,7 @@
+:root {
+  --dark-one: midnightblue;
+}
+
 body{
   font-family: Arial, Helvetica, sans-serif;
   max-width: 400px;
@@ -5,20 +9,20 @@ body{
 
 h1 {
   background-color:blanchedalmond;
-  color:navy;
+  color: var(--dark-one);
   padding: 10px;
   border: solid blanchedalmond 5px;
 }
 
 h2 {
   color: blanchedalmond;
-  background-color: darkblue;
+  background-color:  var(--dark-one);
   padding: 5px;
-  border: solid darkblue 5px;
+  border: solid  var(--dark-one) 5px;
 }
 
 h3 {
-  color:navy;
+  color: var(--dark-one);
   border: 5px dotted goldenrod;
   padding: 5px;
 }
