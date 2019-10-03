@@ -26,3 +26,37 @@ h3 {
   border: 5px dotted goldenrod;
   padding: 5px;
 }
+
+table {
+    border: 5px solid darkolivegreen;
+    padding: 10px;
+    border-radius: 30%;
+    text-align: left;
+    line-height: 20px;
+    background-color: gold;
+    font-weight: bold;
+  }
+
+td {
+    border: 3px solid var(--dark-one);
+    text-align: left;
+    line-height: 20px;
+    background-color: rgba(140, 240, 161);
+    font-weight: bold;
+  }
+
+th {
+    text-align: center;
+    font-size: 30px;
+    padding: 8px;
+    background-color: darkslategray;
+    color: blanchedalmond;
+    border: 1px solid blanchedalmond;
+  }
+
+#CTA {
+  border: 5px solid var(--dark-one);
+  padding: 7px;
+  background-color: gold;
+  font-weight: bold;
+}
